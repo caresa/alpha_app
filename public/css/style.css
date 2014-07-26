@@ -6710,7 +6710,11 @@ th.hide-for-touch {
   background-size: cover; }
 
 /* line 40, ../scss/custom.scss */
-#nested {
+#b img {
+  width: 1em; }
+
+/* line 44, ../scss/custom.scss */
+#b-contain, #nested {
   font-family: 'Luckiest Guy', cursive;
   margin-top: 0em;
   font-size: 5em;
@@ -6719,7 +6723,7 @@ th.hide-for-touch {
   margin-left: -55px;
   margin-top: 110px; }
 
-/* line 59, ../scss/custom.scss */
+/* line 63, ../scss/custom.scss */
 #c {
   background: url("../images/c/c_is_for_capitol.jpg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6732,7 +6736,20 @@ th.hide-for-touch {
   position: relative;
   background-size: cover; }
 
-/* line 72, ../scss/custom.scss */
+/* line 76, ../scss/custom.scss */
+#d {
+  background: url("../images/d/Deep_eddy.jpg") 50% 0 no-repeat fixed;
+  height: 1000px;
+  min-height: 1000px;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  background-size: cover; }
+
+/* line 89, ../scss/custom.scss */
 #a article {
   height: 458px;
   position: absolute;
@@ -6740,10 +6757,16 @@ th.hide-for-touch {
   top: 50px;
   width: 100%; }
 
-/* line 80, ../scss/custom.scss */
+/* line 97, ../scss/custom.scss */
 #b article {
   height: 458px;
   position: absolute;
   text-align: center;
   top: 150px;
   width: 100%; }
+
+/* line 105, ../scss/custom.scss */
+#c article span {
+  font-family: 'Fugaz One', cursive;
+  font-size: 5em;
+  margin-left: -55px; }

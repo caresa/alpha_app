@@ -37,7 +37,11 @@
   background-size: cover;
 }
 
-  #nested{
+  #b img{
+    width: 1em;
+  }
+
+  #b-contain, #nested{
     font-family: 'Luckiest Guy', cursive;
     margin-top: 0em;
     font-size: 5em;
@@ -69,6 +73,19 @@
   background-size: cover;
 }
 
+#d{
+  background: url("../images/d/Deep_eddy.jpg") 50% 0 no-repeat fixed;
+  height: 1000px;
+  min-height: 1000px;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  background-size: cover;
+}
+
 #a article {
   height: 458px;
   position: absolute;
@@ -83,4 +100,11 @@
   text-align: center;
   top: 150px;
   width: 100%;
+}
+
+#c article span{
+  font-family: 'Fugaz One', cursive;
+  font-size: 5em;
+  margin-left: -55px;
+
 }
