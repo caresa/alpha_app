@@ -1,0 +1,86 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+#a{
+  background: url("../images/a/a_is_for_austin.jpeg") 50% 0 repeat fixed;
+  height: 1000px;
+  min-height: 1000px;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  background-size: cover;
+
+}
+
+  #slide1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    letter-spacing: 1em;
+    font-weight: 2000;
+  }
+
+#b{
+  background: url("../images/b/b_is_for_barton.jpg") 50% 0 no-repeat fixed;
+  height: 1000px;
+  min-height: 1000px;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  background-size: cover;
+}
+
+  #nested{
+    font-family: 'Luckiest Guy', cursive;
+    margin-top: 0em;
+    font-size: 5em;
+    color: chartreuse;
+    float: left;
+    margin-left: -55px;
+    margin-top: 110px;
+  }
+  // #slide2, #slide2a{
+  //   font-family: 'Luckiest Guy', cursive;
+  //   margin-top: 0em;
+  //   font-size: 5em;
+  //   color: chartreuse;
+  //   float: left;
+  //   margin-left: -25px;
+
+
+
+#c{
+  background: url("../images/c/c_is_for_capitol.jpg") 50% 0 no-repeat fixed;
+  height: 1000px;
+  min-height: 1000px;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  background-size: cover;
+}
+
+#a article {
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  width: 100%;
+}
+
+#b article{
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  width: 100%;
+}

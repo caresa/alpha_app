@@ -6671,3 +6671,79 @@ th.hide-for-touch {
   /* line 404, ../scss/foundation/components/_visibility.scss */
   th.show-for-print {
     display: table-cell !important; } }
+/* line 1, ../scss/custom.scss */
+* {
+  padding: 0;
+  margin: 0; }
+
+/* line 6, ../scss/custom.scss */
+#a {
+  background: url("../images/a/a_is_for_austin.jpeg") 50% 0 repeat fixed;
+  height: 1000px;
+  min-height: 1000px;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  background-size: cover; }
+
+/* line 20, ../scss/custom.scss */
+#slide1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3em;
+  letter-spacing: 1em;
+  font-weight: 2000; }
+
+/* line 27, ../scss/custom.scss */
+#b {
+  background: url("../images/b/b_is_for_barton.jpg") 50% 0 no-repeat fixed;
+  height: 1000px;
+  min-height: 1000px;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  background-size: cover; }
+
+/* line 40, ../scss/custom.scss */
+#nested {
+  font-family: 'Luckiest Guy', cursive;
+  margin-top: 0em;
+  font-size: 5em;
+  color: chartreuse;
+  float: left;
+  margin-left: -55px;
+  margin-top: 110px; }
+
+/* line 59, ../scss/custom.scss */
+#c {
+  background: url("../images/c/c_is_for_capitol.jpg") 50% 0 no-repeat fixed;
+  height: 1000px;
+  min-height: 1000px;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  background-size: cover; }
+
+/* line 72, ../scss/custom.scss */
+#a article {
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  width: 100%; }
+
+/* line 80, ../scss/custom.scss */
+#b article {
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  width: 100%; }
