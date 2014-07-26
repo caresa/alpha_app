@@ -6676,39 +6676,99 @@ th.hide-for-touch {
   padding: 0;
   margin: 0; }
 
-/* line 6, ../scss/custom.scss */
-.row {
-  background-color: #ccc;
-  border-radius: 6px;
-  background: rgba(0, 0, 0, 0.2); }
+/* line 11, ../scss/custom.scss */
+.wrapper {
+  width: 960px;
+  height: 200px;
+  margin: 0 auto;
+  position: relative; }
 
-/* line 12, ../scss/custom.scss */
+/* line 17, ../scss/custom.scss */
 .row span {
-  color: white;
   font-family: 'Fugaz One', cursive;
   font-size: 3em; }
 
-/* line 30, ../scss/custom.scss */
+/* line 23, ../scss/custom.scss */
+#slide1 img:first-child {
+  position: absolute;
+  top: 70px;
+  left: -150px; }
+
+/* line 28, ../scss/custom.scss */
+#slide1 img:nth-child(2) {
+  position: absolute;
+  top: 30px;
+  left: 100px; }
+
+/* line 33, ../scss/custom.scss */
+#slide1 img:nth-child(3) {
+  position: absolute;
+  top: 60px;
+  left: 30px; }
+
+/* line 38, ../scss/custom.scss */
+#slide1 img:nth-child(4) {
+  position: absolute;
+  top: 700px;
+  left: 110px; }
+
+/* line 43, ../scss/custom.scss */
+#slide1 img:nth-child(5) {
+  position: absolute;
+  top: 300px;
+  right: 300px; }
+
+/* line 48, ../scss/custom.scss */
+#slide1 img:nth-child(6) {
+  position: absolute;
+  top: 100px;
+  right: 300px; }
+
+/* line 53, ../scss/custom.scss */
+#slide1 img:nth-child(7) {
+  position: absolute;
+  top: 35px;
+  right: 100px; }
+
+/* line 58, ../scss/custom.scss */
+#slide1 img:nth-child(8) {
+  position: absolute;
+  top: 100px;
+  right: 300px; }
+
+/* line 76, ../scss/custom.scss */
 #a {
-  background: url("../images/a/a_is_for_austin.jpeg") 50% 0 repeat fixed;
   height: 1000px;
   min-height: 1000px;
   top: 0;
   left: 0;
   margin: 0 auto;
   width: 100%;
-  max-width: 1920px;
-  position: relative;
-  background-size: cover; }
+  max-width: 1920px; }
 
-/* line 43, ../scss/custom.scss */
-#slide1 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 3em;
-  letter-spacing: 1em;
-  font-weight: 2000; }
+/* line 89, ../scss/custom.scss */
+#picture {
+  margin-top: 1em; }
 
-/* line 50, ../scss/custom.scss */
+/* line 93, ../scss/custom.scss */
+#pic-border img {
+  background: white;
+  display: inline;
+  float: left;
+  margin: 0 15px 30px;
+  padding: 10px 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all .15s linear;
+  -moz-transition: all .15s linear;
+  transition: all .15s linear;
+  z-index: 0;
+  position: relative; }
+
+/* line 111, ../scss/custom.scss */
 #b {
   background: url("../images/b/b_is_for_barton.jpg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6721,11 +6781,11 @@ th.hide-for-touch {
   position: relative;
   background-size: cover; }
 
-/* line 63, ../scss/custom.scss */
+/* line 124, ../scss/custom.scss */
 #b img {
   width: 3em; }
 
-/* line 67, ../scss/custom.scss */
+/* line 128, ../scss/custom.scss */
 #b-contain, #nested {
   font-family: 'Luckiest Guy', cursive;
   margin-top: 0em;
@@ -6733,7 +6793,7 @@ th.hide-for-touch {
   margin-left: -55px;
   margin-top: 110px; }
 
-/* line 84, ../scss/custom.scss */
+/* line 145, ../scss/custom.scss */
 #c {
   background: url("../images/c/c_is_for_capitol.jpg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6746,7 +6806,7 @@ th.hide-for-touch {
   position: relative;
   background-size: cover; }
 
-/* line 97, ../scss/custom.scss */
+/* line 158, ../scss/custom.scss */
 #d {
   background: url("../images/d/Deep_eddy.jpg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6759,7 +6819,7 @@ th.hide-for-touch {
   position: relative;
   background-size: cover; }
 
-/* line 110, ../scss/custom.scss */
+/* line 171, ../scss/custom.scss */
 #e {
   background: url("../images/e/e_is_for_energy.jpg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6772,7 +6832,7 @@ th.hide-for-touch {
   position: relative;
   background-size: cover; }
 
-/* line 123, ../scss/custom.scss */
+/* line 184, ../scss/custom.scss */
 #a article {
   height: 458px;
   position: absolute;
@@ -6780,7 +6840,7 @@ th.hide-for-touch {
   top: 50px;
   width: 100%; }
 
-/* line 131, ../scss/custom.scss */
+/* line 192, ../scss/custom.scss */
 #b article {
   height: 458px;
   position: absolute;
@@ -6788,17 +6848,17 @@ th.hide-for-touch {
   top: 150px;
   width: 100%; }
 
-/* line 139, ../scss/custom.scss */
+/* line 200, ../scss/custom.scss */
 #c article span {
   font-family: 'Fugaz One', cursive;
   font-size: 5em;
   margin-left: -55px; }
 
-/* line 145, ../scss/custom.scss */
+/* line 206, ../scss/custom.scss */
 #d .row span {
   font-family: 'Fugaz One', cursive;
   font-size: 3em; }
 
-/* line 150, ../scss/custom.scss */
+/* line 211, ../scss/custom.scss */
 #e .row img {
   height: 8em; }
