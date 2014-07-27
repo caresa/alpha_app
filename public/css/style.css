@@ -6724,49 +6724,49 @@ section#c.bcg {
   transform: rotate(-10deg); }
 
 /* line 60, ../scss/custom.scss */
-#slide1 img:first-child {
+#slide1 img:first-child, #slide2 img:first-child {
   position: absolute;
   top: 70px;
   left: -150px; }
 
 /* line 66, ../scss/custom.scss */
-#slide1 img:nth-child(2) {
+#slide1 img:nth-child(2), #slide2 img:nth-child(2) {
   position: absolute;
   top: 30px;
   left: 100px; }
 
 /* line 71, ../scss/custom.scss */
-#slide1 img:nth-child(3) {
+#slide1 img:nth-child(3), #slide2 img:nth-child(3) {
   position: absolute;
   top: 60px;
   left: 30px; }
 
 /* line 76, ../scss/custom.scss */
-#slide1 img:nth-child(4) {
+#slide1 img:nth-child(4), #slide2 img:nth-child(4) {
   position: absolute;
   top: 200px;
   left: 110px; }
 
 /* line 81, ../scss/custom.scss */
-#slide1 img:nth-child(5) {
+#slide1 img:nth-child(5), #slide2 img:nth-child(5) {
   position: absolute;
   top: 300px;
   right: 700px; }
 
 /* line 86, ../scss/custom.scss */
-#slide1 img:nth-child(6) {
+#slide1 img:nth-child(6), #slide2 img:nth-child(6) {
   position: absolute;
   top: 100px;
   right: 300px; }
 
 /* line 91, ../scss/custom.scss */
-#slide1 img:nth-child(7) {
+#slide1 img:nth-child(7), #slide2 img:nth-child(7) {
   position: absolute;
   top: 35px;
   right: 100px; }
 
 /* line 96, ../scss/custom.scss */
-#slide1 img:nth-child(8) {
+#slide1 img:nth-child(8), #slide2 img:nth-child(8) {
   position: absolute;
   top: 100px;
   right: 300px; }
