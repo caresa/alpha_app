@@ -6676,93 +6676,94 @@ th.hide-for-touch {
   padding: 0;
   margin: 0; }
 
-/* line 11, ../scss/custom.scss */
-.wrapper {
-  width: 960px;
-  height: 50px;
-  margin: 0 auto;
-  position: relative; }
-
-/* line 18, ../scss/custom.scss */
-.row span {
-  font-family: 'Fugaz One', cursive;
-  font-size: 3em; }
-
-/* line 24, ../scss/custom.scss */
-#pic-border1 {
-  -webkit-transform: rotate(6deg);
-  -moz-transform: rotate(6deg);
-  transform: rotate(6deg); }
-
-/* line 30, ../scss/custom.scss */
-#pic-border {
-  -webkit-transform: rotate(-10deg);
-  -moz-transform: rotate(-10deg);
-  transform: rotate(-10deg); }
-
-/* line 36, ../scss/custom.scss */
-#slide1 img:first-child {
-  position: absolute;
-  top: 70px;
-  left: -150px; }
-
-/* line 42, ../scss/custom.scss */
-#slide1 img:nth-child(2) {
-  position: absolute;
-  top: 30px;
-  left: 100px; }
-
-/* line 47, ../scss/custom.scss */
-#slide1 img:nth-child(3) {
-  position: absolute;
-  top: 60px;
-  left: 30px; }
-
-/* line 52, ../scss/custom.scss */
-#slide1 img:nth-child(4) {
-  position: absolute;
-  top: 200px;
-  left: 110px; }
-
-/* line 57, ../scss/custom.scss */
-#slide1 img:nth-child(5) {
-  position: absolute;
-  top: 300px;
-  right: 700px; }
-
-/* line 62, ../scss/custom.scss */
-#slide1 img:nth-child(6) {
-  position: absolute;
-  top: 100px;
-  right: 300px; }
-
-/* line 67, ../scss/custom.scss */
-#slide1 img:nth-child(7) {
-  position: absolute;
-  top: 35px;
-  right: 100px; }
-
-/* line 72, ../scss/custom.scss */
-#slide1 img:nth-child(8) {
-  position: absolute;
-  top: 100px;
-  right: 300px; }
-
-/* line 79, ../scss/custom.scss */
-#a {
+/* line 12, ../scss/custom.scss */
+section.bcg {
   height: 1000px;
   min-height: 1000px;
   top: 0;
   left: 0;
   margin: 0 auto;
   width: 100%;
-  max-width: 1920px; }
+  max-width: 1920px;
+  background-size: cover; }
 
-/* line 93, ../scss/custom.scss */
-#picture {
-  margin-top: 1em; }
+/* line 23, ../scss/custom.scss */
+.large-6.columns.letter {
+  margin-top: 25px; }
 
-/* line 97, ../scss/custom.scss */
+/* line 27, ../scss/custom.scss */
+.wrapper {
+  width: 960px;
+  height: 50px;
+  margin: 0 auto;
+  position: relative; }
+
+/* line 34, ../scss/custom.scss */
+.row span {
+  font-family: 'Fugaz One', cursive;
+  font-size: 3em; }
+
+/* line 40, ../scss/custom.scss */
+#pic-border1 {
+  -webkit-transform: rotate(6deg);
+  -moz-transform: rotate(6deg);
+  transform: rotate(6deg); }
+
+/* line 46, ../scss/custom.scss */
+#pic-border {
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  transform: rotate(-10deg); }
+
+/* line 52, ../scss/custom.scss */
+#slide1 img:first-child {
+  position: absolute;
+  top: 70px;
+  left: -150px; }
+
+/* line 58, ../scss/custom.scss */
+#slide1 img:nth-child(2) {
+  position: absolute;
+  top: 30px;
+  left: 100px; }
+
+/* line 63, ../scss/custom.scss */
+#slide1 img:nth-child(3) {
+  position: absolute;
+  top: 60px;
+  left: 30px; }
+
+/* line 68, ../scss/custom.scss */
+#slide1 img:nth-child(4) {
+  position: absolute;
+  top: 200px;
+  left: 110px; }
+
+/* line 73, ../scss/custom.scss */
+#slide1 img:nth-child(5) {
+  position: absolute;
+  top: 300px;
+  right: 700px; }
+
+/* line 78, ../scss/custom.scss */
+#slide1 img:nth-child(6) {
+  position: absolute;
+  top: 100px;
+  right: 300px; }
+
+/* line 83, ../scss/custom.scss */
+#slide1 img:nth-child(7) {
+  position: absolute;
+  top: 35px;
+  right: 100px; }
+
+/* line 88, ../scss/custom.scss */
+#slide1 img:nth-child(8) {
+  position: absolute;
+  top: 100px;
+  right: 300px; }
+
+/* line 94, ../scss/custom.scss */
 #pic-border img, #pic-border1 img {
   background: white;
   display: inline;
@@ -6780,45 +6781,20 @@ th.hide-for-touch {
   z-index: 0;
   position: relative; }
 
-/* line 115, ../scss/custom.scss */
+/* line 112, ../scss/custom.scss */
 #b {
   background: url("../images/b/b_is_for_barton.jpg") 50% 0 no-repeat fixed;
-  height: 1000px;
-  min-height: 1000px;
-  top: 0;
-  left: 0;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1920px;
-  position: relative;
   background-size: cover; }
 
-/* line 128, ../scss/custom.scss */
+/* line 117, ../scss/custom.scss */
 #b img {
   width: 3em; }
 
-/* line 132, ../scss/custom.scss */
-#b-contain, #nested {
-  font-family: 'Luckiest Guy', cursive;
-  margin-top: 0em;
-  float: left;
-  margin-left: -55px;
-  margin-top: 110px; }
+/* line 121, ../scss/custom.scss */
+#letter-c img span {
+  margin-left: -40px; }
 
-/* line 149, ../scss/custom.scss */
-#c {
-  background: url("../images/c/c_is_for_capitol.jpg") 50% 0 no-repeat fixed;
-  height: 1000px;
-  min-height: 1000px;
-  top: 0;
-  left: 0;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1920px;
-  position: relative;
-  background-size: cover; }
-
-/* line 162, ../scss/custom.scss */
+/* line 125, ../scss/custom.scss */
 #d {
   background: url("../images/d/Deep_eddy.jpg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6831,7 +6807,7 @@ th.hide-for-touch {
   position: relative;
   background-size: cover; }
 
-/* line 175, ../scss/custom.scss */
+/* line 138, ../scss/custom.scss */
 #e {
   background: url("../images/e/e_is_for_energy.jpg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6844,7 +6820,7 @@ th.hide-for-touch {
   position: relative;
   background-size: cover; }
 
-/* line 188, ../scss/custom.scss */
+/* line 151, ../scss/custom.scss */
 #a article {
   height: 458px;
   position: absolute;
@@ -6852,7 +6828,7 @@ th.hide-for-touch {
   top: 50px;
   width: 100%; }
 
-/* line 196, ../scss/custom.scss */
+/* line 159, ../scss/custom.scss */
 #b article {
   height: 458px;
   position: absolute;
@@ -6860,17 +6836,17 @@ th.hide-for-touch {
   top: 150px;
   width: 100%; }
 
-/* line 204, ../scss/custom.scss */
+/* line 167, ../scss/custom.scss */
 #c article span {
   font-family: 'Fugaz One', cursive;
   font-size: 5em;
   margin-left: -55px; }
 
-/* line 210, ../scss/custom.scss */
+/* line 173, ../scss/custom.scss */
 #d .row span {
   font-family: 'Fugaz One', cursive;
   font-size: 3em; }
 
-/* line 215, ../scss/custom.scss */
+/* line 178, ../scss/custom.scss */
 #e .row img {
   height: 8em; }
