@@ -6808,6 +6808,10 @@ section.bcg {
   background-size: cover; }
 
 /* line 138, ../scss/custom.scss */
+#d span {
+  color: white; }
+
+/* line 142, ../scss/custom.scss */
 #e {
   background: url("../images/e/e_is_for_energy.jpg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6820,7 +6824,7 @@ section.bcg {
   position: relative;
   background-size: cover; }
 
-/* line 151, ../scss/custom.scss */
+/* line 155, ../scss/custom.scss */
 #a article {
   height: 458px;
   position: absolute;
@@ -6828,7 +6832,7 @@ section.bcg {
   top: 50px;
   width: 100%; }
 
-/* line 159, ../scss/custom.scss */
+/* line 163, ../scss/custom.scss */
 #b article {
   height: 458px;
   position: absolute;
@@ -6836,17 +6840,17 @@ section.bcg {
   top: 150px;
   width: 100%; }
 
-/* line 167, ../scss/custom.scss */
+/* line 171, ../scss/custom.scss */
 #c article span {
   font-family: 'Fugaz One', cursive;
   font-size: 5em;
   margin-left: -55px; }
 
-/* line 173, ../scss/custom.scss */
+/* line 177, ../scss/custom.scss */
 #d .row span {
   font-family: 'Fugaz One', cursive;
   font-size: 3em; }
 
-/* line 178, ../scss/custom.scss */
+/* line 182, ../scss/custom.scss */
 #e .row img {
   height: 8em; }
