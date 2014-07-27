@@ -10,21 +10,35 @@
 // }
 .wrapper {
     width:960px;
-    height:200px;
+    height:50px;
     margin:0 auto;
     position:relative;
 }
+
   .row span{
     // color: white;
     font-family: 'Fugaz One', cursive;
     font-size: 3em;
   }
 
+#pic-border1{
+  -webkit-transform: rotate(6deg);
+  -moz-transform: rotate(6deg);
+  transform: rotate(6deg);
+}
+
+#pic-border{
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
 #slide1 img:first-child{
 position:absolute;
 top: 70px;
 left: -150px;
 }
+
 #slide1 img:nth-child(2){
     position:absolute;
     top:30px;
@@ -37,13 +51,13 @@ left: -150px;
 }
 #slide1 img:nth-child(4){
     position:absolute;
-    top:700px;
+    top:200px;
     left:110px;
 }
 #slide1 img:nth-child(5){
     position:absolute;
     top:300px;
-    right:300px;
+    right:700px;
 }
 #slide1 img:nth-child(6){
     position:absolute;
@@ -61,17 +75,6 @@ left: -150px;
     right:300px;
 }
 
-// .bcg{
-//   height: 1000px;
-//   min-height: 1000px;
-//   top: 0;
-//   left: 0;
-//   margin: 0 auto;
-//   width: 100%;
-//   max-width: 1920px;
-//   position: relative;
-//   background-size: cover;
-// }
 
 #a{
   // background: url("../images/a/a_is_for_austin.jpeg") 50% 0 repeat fixed;
@@ -82,6 +85,7 @@ left: -150px;
   margin: 0 auto;
   width: 100%;
   max-width: 1920px;
+  // background-color: #ccc;
   // position: relative;
   // background-size: cover;
 }
@@ -90,7 +94,7 @@ left: -150px;
   margin-top: 1em;
 }
 
-  #pic-border img{
+  #pic-border img, #pic-border1 img{
     background: white;
     display: inline;
     float: left;
