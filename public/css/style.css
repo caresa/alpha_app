@@ -6868,3 +6868,41 @@ section#f.bcg {
 /* line 207, ../scss/custom.scss */
 #e .row img {
   height: 8em; }
+
+/* line 211, ../scss/custom.scss */
+#g {
+  background: url("../images/g/graffiti.jpeg") 50% 0 no-repeat fixed;
+  height: 1000px;
+  min-height: 1000px;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  background-size: cover; }
+
+/* line 224, ../scss/custom.scss */
+#g .row span {
+  font-family: 'Fugaz One', cursive;
+  font-size: 3em;
+  color: #9fc438; }
+
+/* line 230, ../scss/custom.scss */
+#h {
+  background: url("../images/h/h_is_for_house_park.jpg") 50% 0 no-repeat fixed;
+  height: 1000px;
+  min-height: 1000px;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  background-size: cover; }
+
+/* line 243, ../scss/custom.scss */
+#h .row span {
+  font-family: 'Fugaz One', cursive;
+  font-size: 3em;
+  color: white; }
