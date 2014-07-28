@@ -6731,66 +6731,63 @@ section#f.bcg {
 
 /* line 66, ../scss/custom.scss */
 .word-wrapper {
-  margin-top: 33.3%;
-  text-align: center;
-  border: 1px solid #666;
-  background: white;
-  border-radius: 6px; }
+  margin-top: 25%;
+  text-align: center; }
 
-/* line 74, ../scss/custom.scss */
-.word-tiles {
-  margin-top: 20%; }
-
-/* line 78, ../scss/custom.scss */
+/* line 71, ../scss/custom.scss */
 #slide1 img:first-child, #slide2 img:first-child {
   position: absolute;
   top: 70px;
   left: -150px; }
 
-/* line 84, ../scss/custom.scss */
+/* line 77, ../scss/custom.scss */
 #slide1 img:nth-child(2), #slide2 img:nth-child(2) {
   position: absolute;
   top: 30px;
   left: 100px; }
 
-/* line 89, ../scss/custom.scss */
+/* line 82, ../scss/custom.scss */
 #slide1 img:nth-child(3), #slide2 img:nth-child(3) {
   position: absolute;
   top: 60px;
   left: 30px; }
 
-/* line 94, ../scss/custom.scss */
+/* line 87, ../scss/custom.scss */
 #slide1 img:nth-child(4), #slide2 img:nth-child(4) {
   position: absolute;
   top: 200px;
   left: 110px; }
 
-/* line 99, ../scss/custom.scss */
+/* line 92, ../scss/custom.scss */
 #slide1 img:nth-child(5), #slide2 img:nth-child(5) {
   position: absolute;
   top: 300px;
   right: 700px; }
 
-/* line 104, ../scss/custom.scss */
+/* line 97, ../scss/custom.scss */
 #slide1 img:nth-child(6), #slide2 img:nth-child(6) {
   position: absolute;
   top: 100px;
   right: 300px; }
 
-/* line 109, ../scss/custom.scss */
+/* line 102, ../scss/custom.scss */
 #slide1 img:nth-child(7), #slide2 img:nth-child(7) {
   position: absolute;
   top: 35px;
   right: 100px; }
 
-/* line 114, ../scss/custom.scss */
+/* line 107, ../scss/custom.scss */
 #slide1 img:nth-child(8), #slide2 img:nth-child(8) {
   position: absolute;
   top: 100px;
   right: 300px; }
 
-/* line 120, ../scss/custom.scss */
-.pic-border img, .pic-border1 img {
+/* line 113, ../scss/custom.scss */
+.pic-holder {
+  margin-top: 20%; }
+
+/* line 117, ../scss/custom.scss */
+.pic-border img, .pic-border1 img, .polaroid img {
   background: white;
   display: inline;
   float: left;
@@ -6807,20 +6804,16 @@ section#f.bcg {
   z-index: 0;
   position: relative; }
 
-/* line 138, ../scss/custom.scss */
+/* line 135, ../scss/custom.scss */
 #b {
   background: url("../images/b/b_is_for_barton.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 143, ../scss/custom.scss */
-#b img {
-  width: 3em; }
-
-/* line 157, ../scss/custom.scss */
+/* line 141, ../scss/custom.scss */
 #letter-c img span {
   margin-left: -40px; }
 
-/* line 161, ../scss/custom.scss */
+/* line 145, ../scss/custom.scss */
 #d {
   background: url("../images/d/Deep_eddy.jpg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6833,11 +6826,11 @@ section#f.bcg {
   position: relative;
   background-size: cover; }
 
-/* line 174, ../scss/custom.scss */
+/* line 158, ../scss/custom.scss */
 #d span {
   color: white; }
 
-/* line 178, ../scss/custom.scss */
+/* line 162, ../scss/custom.scss */
 #e {
   background: url("../images/e/e_is_for_energy.jpg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6850,7 +6843,7 @@ section#f.bcg {
   position: relative;
   background-size: cover; }
 
-/* line 191, ../scss/custom.scss */
+/* line 175, ../scss/custom.scss */
 #a article {
   height: 458px;
   position: absolute;
@@ -6858,7 +6851,7 @@ section#f.bcg {
   top: 50px;
   width: 100%; }
 
-/* line 199, ../scss/custom.scss */
+/* line 183, ../scss/custom.scss */
 #b article {
   height: 458px;
   position: absolute;
@@ -6866,22 +6859,22 @@ section#f.bcg {
   top: 150px;
   width: 100%; }
 
-/* line 207, ../scss/custom.scss */
+/* line 191, ../scss/custom.scss */
 #c article span {
   font-family: 'Fugaz One', cursive;
   font-size: 5em;
   margin-left: -55px; }
 
-/* line 213, ../scss/custom.scss */
+/* line 197, ../scss/custom.scss */
 #d .row span {
   font-family: 'Fugaz One', cursive;
   font-size: 3em; }
 
-/* line 218, ../scss/custom.scss */
+/* line 202, ../scss/custom.scss */
 #e .row img {
   height: 8em; }
 
-/* line 222, ../scss/custom.scss */
+/* line 206, ../scss/custom.scss */
 #g {
   background: url("../images/g/graffiti.jpeg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6894,13 +6887,13 @@ section#f.bcg {
   position: relative;
   background-size: cover; }
 
-/* line 235, ../scss/custom.scss */
+/* line 219, ../scss/custom.scss */
 #g .row span {
   font-family: 'Fugaz One', cursive;
   font-size: 3em;
   color: #9fc438; }
 
-/* line 241, ../scss/custom.scss */
+/* line 225, ../scss/custom.scss */
 #h {
   background: url("../images/h/h_is_for_house_park.jpg") 50% 0 no-repeat fixed;
   height: 1000px;

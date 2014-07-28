@@ -64,15 +64,8 @@ section#f.bcg{
 }
 
 .word-wrapper{
-  margin-top: 33.3%;
+  margin-top: 25%;
   text-align: center;
-  border: 1px solid #666;
-  background: white;
-  border-radius: 6px;
-}
-
-.word-tiles{
-  margin-top: 20%;
 }
 
 #slide1 img:first-child, #slide2 img:first-child {
@@ -117,7 +110,11 @@ left: -150px;
     right:300px;
 }
 
-.pic-border img, .pic-border1 img{
+.pic-holder{
+  margin-top: 20%;
+}
+
+.pic-border img, .pic-border1 img, .polaroid img{
   background: white;
   display: inline;
   float: left;
@@ -140,19 +137,6 @@ left: -150px;
   background-size: cover;
 }
 
-  #b img{
-    width: 3em;
-  }
-
-  // #word-wrapper{
-  //   position: absolute;
-  //   left: 50%;
-  //   top: 50%;
-  //   transform: translate(-50%, -50%);
-  //   -webkit-transform: translate(-50%, -50%);
-  //   -o-transform: translate(-50%, -50%);
-  //   -ms-transform: translate(-50%, -50%);
-  // }
 //need to fix alignment
 #letter-c img span{
   margin-left: -40px;
