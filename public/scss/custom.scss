@@ -49,16 +49,18 @@ section#f.bcg{
     font-size: 3em;
   }
 
-#pic-border1{
+.pic-border1{
   -webkit-transform: rotate(6deg);
   -moz-transform: rotate(6deg);
   transform: rotate(6deg);
 }
 
-#pic-border{
+.pic-border{
   -webkit-transform: rotate(-10deg);
   -moz-transform: rotate(-10deg);
   transform: rotate(-10deg);
+  margin-right: 50px;
+  max-width: 500px;
 }
 
 
@@ -104,7 +106,7 @@ left: -150px;
     right:300px;
 }
 
-#pic-border img, #pic-border1 img{
+.pic-border img, .pic-border1 img{
   background: white;
   display: inline;
   float: left;
