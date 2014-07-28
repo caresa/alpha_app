@@ -4,6 +4,7 @@ jQuery(document).ready(function ($) {
     //initialise Stellar.js
     $(window).stellar();
 
+
     //Cache some variables
     var links = $('.navigation').find('li');
     slide = $('.slide');
@@ -47,7 +48,6 @@ jQuery(document).ready(function ($) {
             scrollTop: $('.slide[data-slide="' + dataslide + '"]').offset().top
         }, 2000, 'easeInOutQuint');
     }
-
 
 
     //When the user clicks on the navigation links, get the data-slide attribute value of the link and pass that variable to the goToByScroll function

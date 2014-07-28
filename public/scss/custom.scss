@@ -63,6 +63,17 @@ section#f.bcg{
   max-width: 500px;
 }
 
+.word-wrapper{
+  margin-top: 33.3%;
+  text-align: center;
+  border: 1px solid #666;
+  background: white;
+  border-radius: 6px;
+}
+
+.word-tiles{
+  margin-top: 20%;
+}
 
 #slide1 img:first-child, #slide2 img:first-child {
 position:absolute;
@@ -240,8 +251,4 @@ left: -150px;
   background-size: cover;
 }
 
-#h .row span{
-  font-family: 'Fugaz One', cursive;
-  font-size: 3em;
-  color: white;
-}
+
