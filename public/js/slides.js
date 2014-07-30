@@ -9,7 +9,18 @@ var slides =[
         'classes': 'pic-border1',
         'id': '',
         'english': 'anteater'
-
+      },
+      {
+        'src': './public/images/a/aardvark.jpg',
+        'classes': 'polaroid',
+        'id': '',
+        'english': 'aardvark'
+      },
+      {
+        'src': './public/images/a/apple.jpg',
+        'classes': 'polaroid',
+        'id': '',
+        'english': 'apple'
       }
     ]
   },
@@ -61,7 +72,7 @@ var slides =[
 
       },
       {
-        'src': './public/images/c_is_for_capitol.jpg',
+        'src': './public/images/c/c_is_for_capitol.jpg',
         'classes': 'pic-border',
         'id': '',
         'english': 'capitol'
@@ -127,13 +138,6 @@ var slides =[
     'title': 'iesta Gardens',
     'letterImg': 'letter_e_clipped_rev_1.png',
     'images': [
-      {
-        'src': './public/images/f/feather_clipped_rev_1.png',
-        'classes': 'slide',
-        'id': '',
-        'english': 'feather'
-
-      },
       {
         'src': './public/images/f/fox.jpg',
         'classes': 'pic-border1',
