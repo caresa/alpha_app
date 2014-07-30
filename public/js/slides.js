@@ -136,7 +136,7 @@ var slides =[
   {
     'letter': 'f',
     'title': 'iesta Gardens',
-    'letterImg': 'letter_e_clipped_rev_1.png',
+    'letterImg': 'letter_f_clipped_rev_1.png',
     'images': [
       {
         'src': './public/images/f/fox.jpg',
@@ -172,7 +172,7 @@ var slides =[
 
       },
       {
-        'src': './public/images/g/give.jpg',
+        'src': './public/images/g/give.jpeg',
         'classes': 'polaroid',
         'id': '',
         'english': 'give'
@@ -226,7 +226,7 @@ var slides =[
 
       },
       {
-        'src': './public/images/i/imaginarium.jpg',
+        'src': './public/images/i/i_is_for_imaginarium.jpg',
         'classes': 'polaroid',
         'id': '',
         'english': 'museum'
@@ -572,10 +572,10 @@ var slides =[
         'english': 'ukulele'
       },
       {
-        'src': './public/images/u/umbrella.jpg',
+        'src': './public/images/v/violen.jpg',
         'classes': 'polaroid',
         'id': '',
-        'english': 'umbrella'
+        'english': 'violen'
 
       },
       {
@@ -667,7 +667,7 @@ var slides =[
   {
     'letter': 'z',
     'title': 'ilker',
-    'letterImg': 'letter_z_clipped_rev.jpg',
+    'letterImg': 'letter_z_clipped_rev_2.png',
     'images': [
       {
         'src': './public/images/z/zilker_2.jpg',

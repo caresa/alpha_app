@@ -6802,18 +6802,19 @@ section#f.bcg {
   -moz-transition: all .15s linear;
   transition: all .15s linear;
   z-index: 0;
-  position: relative; }
+  position: relative;
+  cursor: pointer; }
 
-/* line 135, ../scss/custom.scss */
+/* line 136, ../scss/custom.scss */
 #b {
   background: url("../images/b/b_is_for_barton.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 141, ../scss/custom.scss */
+/* line 142, ../scss/custom.scss */
 #letter-c img span {
   margin-left: -40px; }
 
-/* line 145, ../scss/custom.scss */
+/* line 146, ../scss/custom.scss */
 #d {
   background: url("../images/d/Deep_eddy.jpg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6826,11 +6827,11 @@ section#f.bcg {
   position: relative;
   background-size: cover; }
 
-/* line 158, ../scss/custom.scss */
+/* line 159, ../scss/custom.scss */
 #d span {
   color: white; }
 
-/* line 162, ../scss/custom.scss */
+/* line 163, ../scss/custom.scss */
 #e {
   background: url("../images/e/e_is_for_energy.jpg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6843,7 +6844,7 @@ section#f.bcg {
   position: relative;
   background-size: cover; }
 
-/* line 175, ../scss/custom.scss */
+/* line 176, ../scss/custom.scss */
 #a article {
   height: 458px;
   position: absolute;
@@ -6851,7 +6852,7 @@ section#f.bcg {
   top: 50px;
   width: 100%; }
 
-/* line 183, ../scss/custom.scss */
+/* line 184, ../scss/custom.scss */
 #b article {
   height: 458px;
   position: absolute;
@@ -6859,22 +6860,18 @@ section#f.bcg {
   top: 150px;
   width: 100%; }
 
-/* line 191, ../scss/custom.scss */
+/* line 192, ../scss/custom.scss */
 #c article span {
   font-family: 'Fugaz One', cursive;
   font-size: 5em;
   margin-left: -55px; }
 
-/* line 197, ../scss/custom.scss */
+/* line 198, ../scss/custom.scss */
 #d .row span {
   font-family: 'Fugaz One', cursive;
   font-size: 3em; }
 
-/* line 202, ../scss/custom.scss */
-#e .row img {
-  height: 8em; }
-
-/* line 206, ../scss/custom.scss */
+/* line 203, ../scss/custom.scss */
 #g {
   background: url("../images/g/graffiti.jpeg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6887,13 +6884,13 @@ section#f.bcg {
   position: relative;
   background-size: cover; }
 
-/* line 219, ../scss/custom.scss */
+/* line 216, ../scss/custom.scss */
 #g .row span {
   font-family: 'Fugaz One', cursive;
   font-size: 3em;
   color: #9fc438; }
 
-/* line 225, ../scss/custom.scss */
+/* line 222, ../scss/custom.scss */
 #h {
   background: url("../images/h/h_is_for_house_park.jpg") 50% 0 no-repeat fixed;
   height: 1000px;
