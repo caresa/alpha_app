@@ -264,6 +264,33 @@ var slides =[
     ]
   },
   {
+    'letter': 'k',
+    'title': 'ite Festival',
+    'letterImg': 'letter_k_clipped_rev_2.png',
+    'images': [
+      {
+        'src': './public/images/k/kangaroo.jpg',
+        'classes': 'polaroid',
+        'id': '',
+        'english': 'kangaroo'
+
+      },
+      {
+        'src': './public/images/k/king.jpg',
+        'classes': 'polaroid',
+        'id': '',
+        'english': 'king'
+
+      },
+      {
+        'src': './public/images/k/koala.jpg',
+        'classes': 'polaroid',
+        'id': '',
+        'english': 'koala'
+      }
+    ]
+  },
+  {
     'letter': 'l',
     'title': 'adybird Lake',
     'letterImg': 'letter_l_clipped_rev_2.png',
@@ -657,12 +684,7 @@ var slides =[
         'id': '',
         'english': 'zeppelin'
       }
-    ]
-  },
+      ]
+    },
+  ];
 
-
-
-
-
-
-];

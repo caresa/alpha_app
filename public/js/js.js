@@ -1,7 +1,8 @@
 jQuery(document).ready(function ($) {
-
-
-
+    for(var i in slides){
+        var slide = slides[i];
+        showSlide(slide, 'body')
+    }
     //initialise Stellar.js
     $(window).stellar();
 
