@@ -6734,60 +6734,12 @@ section#f.bcg {
   margin-top: 25%;
   text-align: center; }
 
-/* line 71, ../scss/custom.scss */
-#slide1 img:first-child, #slide2 img:first-child {
-  position: absolute;
-  top: 70px;
-  left: -150px; }
-
-/* line 77, ../scss/custom.scss */
-#slide1 img:nth-child(2), #slide2 img:nth-child(2) {
-  position: absolute;
-  top: 30px;
-  left: 100px; }
-
-/* line 82, ../scss/custom.scss */
-#slide1 img:nth-child(3), #slide2 img:nth-child(3) {
-  position: absolute;
-  top: 60px;
-  left: 30px; }
-
-/* line 87, ../scss/custom.scss */
-#slide1 img:nth-child(4), #slide2 img:nth-child(4) {
-  position: absolute;
-  top: 200px;
-  left: 110px; }
-
-/* line 92, ../scss/custom.scss */
-#slide1 img:nth-child(5), #slide2 img:nth-child(5) {
-  position: absolute;
-  top: 300px;
-  right: 700px; }
-
-/* line 97, ../scss/custom.scss */
-#slide1 img:nth-child(6), #slide2 img:nth-child(6) {
-  position: absolute;
-  top: 100px;
-  right: 300px; }
-
-/* line 102, ../scss/custom.scss */
-#slide1 img:nth-child(7), #slide2 img:nth-child(7) {
-  position: absolute;
-  top: 35px;
-  right: 100px; }
-
-/* line 107, ../scss/custom.scss */
-#slide1 img:nth-child(8), #slide2 img:nth-child(8) {
-  position: absolute;
-  top: 100px;
-  right: 300px; }
-
 /* line 113, ../scss/custom.scss */
 .pic-holder {
   margin-top: 20%; }
 
 /* line 117, ../scss/custom.scss */
-.pic-border img, .pic-border1 img, .polaroid img {
+.polaroid img {
   background: white;
   display: inline;
   float: left;

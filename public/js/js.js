@@ -1,8 +1,14 @@
 jQuery(document).ready(function ($) {
+
     for(var i in slides){
         var slide = slides[i];
         showSlide(slide, 'body')
     }
+
+    $('div.polaroid').on('click', function(){
+      alert('boo');
+    });
+
     //initialise Stellar.js
     $(window).stellar();
 

@@ -21,5 +21,5 @@ function showSlide(slide, element){
     html = html+'</div></div></section>';
 
   $(element).append(html);
-}
+};
 
