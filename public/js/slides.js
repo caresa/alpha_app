@@ -273,14 +273,14 @@ var slides =[
     'letterImg': 'letter_k_clipped_rev_2.png',
     'images': [
       {
-        'src': './public/images/k/kangaroo.jpg',
+        'src': './public/images/k/king.jpg',
         'classes': 'polaroid',
         'id': '',
         'english': 'kangaroo'
 
       },
       {
-        'src': './public/images/k/king.jpg',
+        'src': './public/images/k/kangaroo.jpg',
         'classes': 'polaroid',
         'id': '',
         'english': 'king'
@@ -653,7 +653,7 @@ var slides =[
         'src': './public/images/y/yams.jpg',
         'classes': 'polaroid',
         'id': '',
-        'english': 'yams'
+        'english': 'yam'
 
       },
       {

@@ -1,35 +1,40 @@
 html, body{
   width: 100%;
   height: 100%;
+
 }
 
-.slide {
-    position: absolute;
-right: 40px;
-top: 40px;
-font-size: 28px;
-color: rgba(51,51,51,0.3);
-    // box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
-}
-
-  #a{
-  background: url("../images/a/a_is_for_austin.jpeg") 50% 0 no-repeat fixed;
+.letter {
+  width: 26.3%;
+  font-size: 30em;
+  color: #800000;
+  float: left;
   height: 1000px;
   min-height: 1000px;
   top: 0;
   left: 0;
-  // margin: 0 auto;
+  margin: 0 auto;
   max-width: 1920px;
-  background-size: cover;
 }
-  #b{
-  background: url("../images/b/b_is_for_barton.jpg") 50% 0 no-repeat fixed;
-  height: 1000px;
-  min-height: 1000px;
-  top: 0;
-  left: 0;
-  // margin: 0 auto;
-  max-width: 1920px;
-  position: relative;
-  background-size: cover;
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.word{
+  float: left;
+  margin-top: 1em;
+  font-size: 10em;
 }
+
+

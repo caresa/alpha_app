@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+body{
+  min-width: 630px;
+
+}
 // .row{
 //   background-color: #ccc;
 //   border-radius: 6px;
@@ -20,17 +24,17 @@ section.bcg{
   background-size: cover;
 }
 
-section#a.bcg{
-  background: #536ba9;
-}
+// section#a.bcg{
+//   background: #536ba9;
+// }
 
-section#c.bcg{
-  background: #8accde;
-}
+// section#c.bcg{
+//   background: #8accde;
+// }
 
-section#f.bcg{
-  background: #027053;
-}
+// section#f.bcg{
+//   background: #027053;
+// }
 
 .large-6.columns.letter{
   margin-top: 25px;
@@ -110,9 +114,6 @@ section#f.bcg{
 //     right:300px;
 // }
 
-.pic-holder{
-  margin-top: 20%;
-}
 
 .polaroid img{
   background: white;
@@ -133,45 +134,45 @@ section#f.bcg{
   cursor: pointer;
 }
 
-#b{
-  background: url("../images/b/b_is_for_barton.jpg") 50% 0 no-repeat fixed;
-  background-size: cover;
-}
+// #b{
+//   background: url("../images/b/b_is_for_barton.jpg") 50% 0 no-repeat fixed;
+//   background-size: cover;
+// }
 
-//need to fix alignment
-#letter-c img span{
-  margin-left: -40px;
-}
+// //need to fix alignment
+// #letter-c img span{
+//   margin-left: -40px;
+// }
 
-#d{
-  background: url("../images/d/Deep_eddy.jpg") 50% 0 no-repeat fixed;
-  height: 1000px;
-  min-height: 1000px;
-  top: 0;
-  left: 0;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1920px;
-  position: relative;
-  background-size: cover;
-}
+// #d{
+//   background: url("../images/d/Deep_eddy.jpg") 50% 0 no-repeat fixed;
+//   height: 1000px;
+//   min-height: 1000px;
+//   top: 0;
+//   left: 0;
+//   margin: 0 auto;
+//   width: 100%;
+//   max-width: 1920px;
+//   position: relative;
+//   background-size: cover;
+// }
 
-  #d span{
-    color: white;
-  }
+  // #d span{
+  //   color: white;
+  // }
 
-#e{
-  background: url("../images/e/e_is_for_energy.jpg") 50% 0 no-repeat fixed;
-  height: 1000px;
-  min-height: 1000px;
-  top: 0;
-  left: 0;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1920px;
-  position: relative;
-  background-size: cover;
-}
+// #e{
+//   background: url("../images/e/e_is_for_energy.jpg") 50% 0 no-repeat fixed;
+//   height: 1000px;
+//   min-height: 1000px;
+//   top: 0;
+//   left: 0;
+//   margin: 0 auto;
+//   width: 100%;
+//   max-width: 1920px;
+//   position: relative;
+//   background-size: cover;
+// }
 
 #a article {
   height: 458px;
@@ -230,6 +231,10 @@ section#f.bcg{
   max-width: 1920px;
   position: relative;
   background-size: cover;
+}
+
+.languages span{
+  cursor: pointer;
 }
 
 
