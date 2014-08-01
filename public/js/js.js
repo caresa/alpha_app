@@ -15,11 +15,16 @@ jQuery(document).ready(function ($) {
     function setLanguage(lang){
         language = lang;
     };
+
+    //$('.card-container').flip(options);
+    $('.card-container').on('click', function () {
+        $(this).flip(options);
+    });
+
+
     //click listener to make api call
     $('.polaroid').on('click', function(){
-       translate(this.id, language);
-       $(".card-container").flip(options);
-       console.log('a');
+       translate($(this).attr('id'), language, $(this).find('.back .text'));
     });
 
     $(document).on('keyup', function(e){
@@ -37,7 +42,7 @@ jQuery(document).ready(function ($) {
 
         $('html, body').animate({
             scrollTop: $('#'+letter).offset().top
-        }, 2000);
+        }, 2000, "easeOutBounce");
     });
 
 
@@ -107,7 +112,7 @@ jQuery(document).ready(function ($) {
 
 });
 
-function translate(englishWord, language) {
+function translate(englishWord, language, elm) {
     var request = $.ajax({
         url: "http://glosbe.com/gapi/translate?from=eng&dest="+language+"&format=json&phrase="+englishWord+"&pretty=true",
         type: "GET",
@@ -132,6 +137,7 @@ function translate(englishWord, language) {
             }
         }
 
+        elm.html(expolreObj.english+' = '+expolreObj.translation);
         console.log(expolreObj);
     });
 
@@ -155,7 +161,7 @@ function slideIndex(code) {
 
 var options = {
        alwaysOneDirection: 'false', //values: 'true' or 'false', indicates if flipping card always in one direction
-       direction: 'tb', //values: 'lr' (left to right), 'tb'(top to bottom), 'rl' and 'bt'
+       direction: 'lr', //values: 'lr' (left to right), 'tb'(top to bottom), 'rl' and 'bt'
        speed: '500ms', //specify animation duration
        timingfunction: 'ease', //built-in timing function list (see it below) or customized cubic-beizer
        onflipping: function(dir, transDir) //this event will be triggered before animation

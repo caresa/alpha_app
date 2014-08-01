@@ -6745,7 +6745,11 @@ section.bcg {
   position: relative;
   cursor: pointer; }
 
-/* line 177, ../scss/custom.scss */
+/* line 137, ../scss/custom.scss */
+.card .front {
+  z-index: 1; }
+
+/* line 181, ../scss/custom.scss */
 #a article {
   height: 458px;
   position: absolute;
@@ -6753,7 +6757,7 @@ section.bcg {
   top: 50px;
   width: 100%; }
 
-/* line 185, ../scss/custom.scss */
+/* line 189, ../scss/custom.scss */
 #b article {
   height: 458px;
   position: absolute;
@@ -6761,18 +6765,18 @@ section.bcg {
   top: 150px;
   width: 100%; }
 
-/* line 193, ../scss/custom.scss */
+/* line 197, ../scss/custom.scss */
 #c article span {
   font-family: 'Fugaz One', cursive;
   font-size: 5em;
   margin-left: -55px; }
 
-/* line 199, ../scss/custom.scss */
+/* line 203, ../scss/custom.scss */
 #d .row span {
   font-family: 'Fugaz One', cursive;
   font-size: 3em; }
 
-/* line 204, ../scss/custom.scss */
+/* line 208, ../scss/custom.scss */
 #g {
   background: url("../images/g/graffiti.jpeg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6785,13 +6789,13 @@ section.bcg {
   position: relative;
   background-size: cover; }
 
-/* line 217, ../scss/custom.scss */
+/* line 221, ../scss/custom.scss */
 #g .row span {
   font-family: 'Fugaz One', cursive;
   font-size: 3em;
   color: #9fc438; }
 
-/* line 223, ../scss/custom.scss */
+/* line 227, ../scss/custom.scss */
 #h {
   background: url("../images/h/h_is_for_house_park.jpg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6804,6 +6808,6 @@ section.bcg {
   position: relative;
   background-size: cover; }
 
-/* line 236, ../scss/custom.scss */
+/* line 240, ../scss/custom.scss */
 .languages span {
   cursor: pointer; }

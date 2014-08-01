@@ -134,6 +134,10 @@ section.bcg{
   cursor: pointer;
 }
 
+.card .front {
+  z-index: 1;
+}
+
 // #b{
 //   background: url("../images/b/b_is_for_barton.jpg") 50% 0 no-repeat fixed;
 //   background-size: cover;

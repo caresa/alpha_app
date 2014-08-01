@@ -7,20 +7,22 @@ function showSlide(slide, element){
                   '</div>'+
                   '<hr>'
                 '</div>'+
-                '<div class="row">';
+                '<div class="large-12 large-centered row">';
 
-          for(var i in slide.images){
-            html = html+'<div class="row card-container">'+
-                          '<div class="large-12 large-centered columns card">'+
-                            '<div class="small-4 columns polaroid front" id="'+slide.images[i].english+'">'+
-                              '<img src="'+slide.images[i].src+'">'+
-                            '</div>'+
-                            '<div class="small-4 columns polaroid back">'+
-                              "back"+
-                            '</div>'+
-                          '</div>'+
-                        '</div>';
-          }
+                  for(var i in slide.images){
+                    html = html+'<div id="'+slide.images[i].english+'" class="polaroid card-container columns small-4">'+
+                                  '<div class="card">'+
+                                    '<div class="front">'+
+                                      '<img src="'+slide.images[i].src+'">'+
+                                    '</div>'+
+                                    '<div class="back">'+
+                                      '<p class="text">'+
+                                      "&nbsp;"+
+                                      '</p>' +
+                                    '</div>'+
+                                  '</div>'+
+                                '</div>';
+                  }
 
     html = html+'</div>'+
                   '<div class="row">'+
