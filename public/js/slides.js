@@ -424,7 +424,8 @@ var slides =[
       {
         'src': './public/images/p/play.jpg',
         'classes': 'polaroid',
-        'id': '2'
+        'id': '',
+        'english': 'play'
       }
     ]
   },

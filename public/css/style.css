@@ -6726,30 +6726,19 @@ section.bcg {
   margin-top: 25%;
   text-align: center; }
 
-/* line 118, ../scss/custom.scss */
-.polaroid img {
-  background: white;
-  display: inline;
-  float: left;
-  margin: 0 15px 30px;
-  padding: 10px 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  -webkit-transition: all .15s linear;
-  -moz-transition: all .15s linear;
-  transition: all .15s linear;
-  z-index: 0;
-  position: relative;
-  cursor: pointer; }
+/* line 75, ../scss/custom.scss */
+.back p {
+  text-align: center; }
 
-/* line 137, ../scss/custom.scss */
+/* line 141, ../scss/custom.scss */
 .card .front {
   z-index: 1; }
 
-/* line 181, ../scss/custom.scss */
+/* line 145, ../scss/custom.scss */
+.card .back {
+  box-shadow: 1px 1px 6px #999; }
+
+/* line 188, ../scss/custom.scss */
 #a article {
   height: 458px;
   position: absolute;
@@ -6757,7 +6746,7 @@ section.bcg {
   top: 50px;
   width: 100%; }
 
-/* line 189, ../scss/custom.scss */
+/* line 196, ../scss/custom.scss */
 #b article {
   height: 458px;
   position: absolute;
@@ -6765,18 +6754,18 @@ section.bcg {
   top: 150px;
   width: 100%; }
 
-/* line 197, ../scss/custom.scss */
+/* line 204, ../scss/custom.scss */
 #c article span {
   font-family: 'Fugaz One', cursive;
   font-size: 5em;
   margin-left: -55px; }
 
-/* line 203, ../scss/custom.scss */
+/* line 210, ../scss/custom.scss */
 #d .row span {
   font-family: 'Fugaz One', cursive;
   font-size: 3em; }
 
-/* line 208, ../scss/custom.scss */
+/* line 215, ../scss/custom.scss */
 #g {
   background: url("../images/g/graffiti.jpeg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6789,13 +6778,13 @@ section.bcg {
   position: relative;
   background-size: cover; }
 
-/* line 221, ../scss/custom.scss */
+/* line 228, ../scss/custom.scss */
 #g .row span {
   font-family: 'Fugaz One', cursive;
   font-size: 3em;
   color: #9fc438; }
 
-/* line 227, ../scss/custom.scss */
+/* line 234, ../scss/custom.scss */
 #h {
   background: url("../images/h/h_is_for_house_park.jpg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6808,6 +6797,6 @@ section.bcg {
   position: relative;
   background-size: cover; }
 
-/* line 240, ../scss/custom.scss */
+/* line 247, ../scss/custom.scss */
 .languages span {
   cursor: pointer; }
