@@ -6735,10 +6735,26 @@ section.bcg {
   z-index: 1; }
 
 /* line 145, ../scss/custom.scss */
-.card .back {
-  box-shadow: 1px 1px 6px #999; }
+.front {
+  text-align: center; }
 
-/* line 188, ../scss/custom.scss */
+/* line 149, ../scss/custom.scss */
+.front img {
+  height: 100%;
+  border-radius: 6px;
+  border: 1px solid black; }
+
+/* line 155, ../scss/custom.scss */
+.card .back {
+  box-shadow: 1px 1px 6px #999;
+  border-radius: 6px;
+  border: 1px solid black; }
+
+/* line 161, ../scss/custom.scss */
+.letter {
+  width: 49%; }
+
+/* line 204, ../scss/custom.scss */
 #a article {
   height: 458px;
   position: absolute;
@@ -6746,7 +6762,7 @@ section.bcg {
   top: 50px;
   width: 100%; }
 
-/* line 196, ../scss/custom.scss */
+/* line 212, ../scss/custom.scss */
 #b article {
   height: 458px;
   position: absolute;
@@ -6754,18 +6770,18 @@ section.bcg {
   top: 150px;
   width: 100%; }
 
-/* line 204, ../scss/custom.scss */
+/* line 220, ../scss/custom.scss */
 #c article span {
   font-family: 'Fugaz One', cursive;
   font-size: 5em;
   margin-left: -55px; }
 
-/* line 210, ../scss/custom.scss */
+/* line 226, ../scss/custom.scss */
 #d .row span {
   font-family: 'Fugaz One', cursive;
   font-size: 3em; }
 
-/* line 215, ../scss/custom.scss */
+/* line 231, ../scss/custom.scss */
 #g {
   background: url("../images/g/graffiti.jpeg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6778,13 +6794,13 @@ section.bcg {
   position: relative;
   background-size: cover; }
 
-/* line 228, ../scss/custom.scss */
+/* line 244, ../scss/custom.scss */
 #g .row span {
   font-family: 'Fugaz One', cursive;
   font-size: 3em;
   color: #9fc438; }
 
-/* line 234, ../scss/custom.scss */
+/* line 250, ../scss/custom.scss */
 #h {
   background: url("../images/h/h_is_for_house_park.jpg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6797,6 +6813,10 @@ section.bcg {
   position: relative;
   background-size: cover; }
 
-/* line 247, ../scss/custom.scss */
+/* line 263, ../scss/custom.scss */
 .languages span {
   cursor: pointer; }
+
+/* line 267, ../scss/custom.scss */
+.languages {
+  text-align: center; }

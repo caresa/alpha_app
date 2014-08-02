@@ -5,12 +5,21 @@ function showSlide(slide, element){
                     '<img src="./public/images/'+slide.letter+"/"+slide.letterImg+'">'+
                       '<span>'+slide.title+'</span>'+
                   '</div>'+
+                  // '<div class="small-2 columns language">'+
+                  //   '<span>french</span>'+
+                  // '</div>'+
+                  // '<div class="small-2 columns language">'+
+                  //   '<span>french</span>'+
+                  // '</div>'+
+                  // '<div class="small-2 columns language">'+
+                  //   '<span>french</span>'+
+                  // '</div>'+
                   '<hr>'
                 '</div>'+
                 '<div class="large-12 large-centered row">';
 
                   for(var i in slide.images){
-                    html = html+'<div id="'+slide.images[i].english+'" class="polaroid card-container columns small-4">'+
+                    html = html+'<div id="'+slide.images[i].english+'" class="card-container columns small-4">'+
                                   '<div class="card">'+
                                     '<div class="front">'+
                                       '<img src="'+slide.images[i].src+'">'+
