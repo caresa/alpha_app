@@ -14,15 +14,15 @@ function showSlide(slide, element){
                   // '<div class="small-2 columns language">'+
                   //   '<span>french</span>'+
                   // '</div>'+
-                  '<hr>'
                 '</div>'+
-                '<div class="large-12 large-centered row">';
+                '<div class="large-12 large-centered row card-wrap">';
 
                   for(var i in slide.images){
-                    html = html+'<div id="'+slide.images[i].english+'" class="card-container columns small-4">'+
+                    html = html+'<div id="'+slide.images[i].english+'" class="polaroid card-container columns small-4">'+
                                   '<div class="card">'+
                                     '<div class="front">'+
                                       '<img src="'+slide.images[i].src+'">'+
+                                      '<div class="tag">xxx</div>'+
                                     '</div>'+
                                     '<div class="back">'+
                                       '<p class="text">'+

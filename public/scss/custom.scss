@@ -1,10 +1,11 @@
 *{
   padding: 0;
   margin: 0;
+  color: #ccc;
+  text-shadow:2px 2px #666;
 }
 
 body{
-  min-width: 630px;
 
 }
 // .row{
@@ -22,19 +23,8 @@ section.bcg{
   width: 100%;
   max-width: 1920px;
   background-size: cover;
+  border: 1px solid black;
 }
-
-// section#a.bcg{
-//   background: #536ba9;
-// }
-
-// section#c.bcg{
-//   background: #8accde;
-// }
-
-// section#f.bcg{
-//   background: #027053;
-// }
 
 .large-6.columns.letter{
   margin-top: 25px;
@@ -49,7 +39,7 @@ section.bcg{
 
   .row span{
     // color: white;
-    font-family: 'Fugaz One', cursive;
+    font-family: 'Dense-Regular', cursive;
     font-size: 3em;
   }
 
@@ -72,8 +62,23 @@ section.bcg{
   text-align: center;
 }
 
-.back p{
-  text-align: center;
+.back {
+  background-color:#9c62ff;
+}
+
+  .back p{
+    margin-top: 85px;
+    text-align: center;
+  }
+
+.card-wrap{
+  // display: none;
+  border-radius: 3px;
+  border-box: 1px solid black;
+  margin-top: 2em;
+  background-color: white;
+  min-width: 630px;
+  padding: 10px 0 10px 0;
 }
 
 // #slide1 img:first-child, #slide2 img:first-child {
@@ -143,7 +148,20 @@ section.bcg{
 }
 
   .front{
+    position: relative;
     text-align: center;
+  }
+
+  .front .tag {
+    position: absolute;
+    left: 2px;
+    bottom: 10px;
+    background-color: #EEE;
+    padding: 10px 20px 10px 20px;
+    -moz-opacity: 0.70;
+    opacity: 0.70;
+    color: #333;
+    font-weight: bold;
   }
 
   .front img{
@@ -159,47 +177,55 @@ section.bcg{
 }
 
 .letter{
-  width: 49%;
+  width: 70%;
 }
-// #b{
-//   background: url("../images/b/b_is_for_barton.jpg") 50% 0 no-repeat fixed;
-//   background-size: cover;
-// }
+
+  .letter span{
+    font-size: 88px;
+  }
+
+#b{
+  background: url("../images/b/b_is_for_barton.jpg") 50% 0 no-repeat fixed;
+  background-size: cover;
+  border: 1px solid black;
+  text-shadow:2px 2px #666;
+
+}
 
 // //need to fix alignment
 // #letter-c img span{
 //   margin-left: -40px;
 // }
 
-// #d{
-//   background: url("../images/d/Deep_eddy.jpg") 50% 0 no-repeat fixed;
-//   height: 1000px;
-//   min-height: 1000px;
-//   top: 0;
-//   left: 0;
-//   margin: 0 auto;
-//   width: 100%;
-//   max-width: 1920px;
-//   position: relative;
-//   background-size: cover;
-// }
+#d{
+  background: url("../images/d/Deep_eddy.jpg") 50% 0 no-repeat fixed;
+  height: 1000px;
+  min-height: 1000px;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  background-size: cover;
+}
 
   // #d span{
   //   color: white;
   // }
 
-// #e{
-//   background: url("../images/e/e_is_for_energy.jpg") 50% 0 no-repeat fixed;
-//   height: 1000px;
-//   min-height: 1000px;
-//   top: 0;
-//   left: 0;
-//   margin: 0 auto;
-//   width: 100%;
-//   max-width: 1920px;
-//   position: relative;
-//   background-size: cover;
-// }
+#e{
+  background: url("../images/e/e_is_for_energy.jpg") 50% 0 no-repeat fixed;
+  height: 1000px;
+  min-height: 1000px;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  background-size: cover;
+}
 
 #a article {
   height: 458px;
@@ -218,14 +244,14 @@ section.bcg{
 }
 
 #c article span{
-  font-family: 'Fugaz One', cursive;
+  font-family: 'Dense-Regular', cursive;
   font-size: 5em;
   margin-left: -55px;
 }
 
 #d .row span{
-  font-family: 'Fugaz One', cursive;
-  font-size: 3em;
+  font-family: 'Dense-Regular', cursive;
+
 }
 
 #g{
@@ -242,7 +268,7 @@ section.bcg{
 }
 
 #g .row span{
-  font-family: 'Fugaz One', cursive;
+  font-family: 'Dense-Regular', cursive;
   font-size: 3em;
   color: #9fc438;
 }

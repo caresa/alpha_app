@@ -6674,13 +6674,11 @@ th.hide-for-touch {
 /* line 1, ../scss/custom.scss */
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  color: #ccc;
+  text-shadow: 2px 2px #666; }
 
-/* line 6, ../scss/custom.scss */
-body {
-  min-width: 630px; }
-
-/* line 16, ../scss/custom.scss */
+/* line 17, ../scss/custom.scss */
 section.bcg {
   height: 1000px;
   min-height: 1000px;
@@ -6689,31 +6687,32 @@ section.bcg {
   margin: 0 auto;
   width: 100%;
   max-width: 1920px;
-  background-size: cover; }
+  background-size: cover;
+  border: 1px solid black; }
 
-/* line 39, ../scss/custom.scss */
+/* line 29, ../scss/custom.scss */
 .large-6.columns.letter {
   margin-top: 25px; }
 
-/* line 43, ../scss/custom.scss */
+/* line 33, ../scss/custom.scss */
 .wrapper {
   width: 960px;
   height: 50px;
   margin: 0 auto;
   position: relative; }
 
-/* line 50, ../scss/custom.scss */
+/* line 40, ../scss/custom.scss */
 .row span {
-  font-family: 'Fugaz One', cursive;
+  font-family: 'Dense-Regular', cursive;
   font-size: 3em; }
 
-/* line 56, ../scss/custom.scss */
+/* line 46, ../scss/custom.scss */
 .pic-border1 {
   -webkit-transform: rotate(6deg);
   -moz-transform: rotate(6deg);
   transform: rotate(6deg); }
 
-/* line 62, ../scss/custom.scss */
+/* line 52, ../scss/custom.scss */
 .pic-border {
   -webkit-transform: rotate(-10deg);
   -moz-transform: rotate(-10deg);
@@ -6721,40 +6720,104 @@ section.bcg {
   margin-right: 50px;
   max-width: 500px; }
 
-/* line 70, ../scss/custom.scss */
+/* line 60, ../scss/custom.scss */
 .word-wrapper {
   margin-top: 25%;
   text-align: center; }
 
-/* line 75, ../scss/custom.scss */
+/* line 65, ../scss/custom.scss */
+.back {
+  background-color: #9c62ff; }
+
+/* line 69, ../scss/custom.scss */
 .back p {
+  margin-top: 85px;
   text-align: center; }
 
-/* line 141, ../scss/custom.scss */
+/* line 74, ../scss/custom.scss */
+.card-wrap {
+  border-radius: 3px;
+  border-box: 1px solid black;
+  margin-top: 2em;
+  background-color: white;
+  min-width: 630px;
+  padding: 10px 0 10px 0; }
+
+/* line 146, ../scss/custom.scss */
 .card .front {
   z-index: 1; }
 
-/* line 145, ../scss/custom.scss */
+/* line 150, ../scss/custom.scss */
 .front {
+  position: relative;
   text-align: center; }
 
-/* line 149, ../scss/custom.scss */
+/* line 155, ../scss/custom.scss */
+.front .tag {
+  position: absolute;
+  left: 2px;
+  bottom: 10px;
+  background-color: #EEE;
+  padding: 10px 20px 10px 20px;
+  -moz-opacity: 0.70;
+  opacity: 0.70;
+  color: #333;
+  font-weight: bold; }
+
+/* line 167, ../scss/custom.scss */
 .front img {
   height: 100%;
   border-radius: 6px;
   border: 1px solid black; }
 
-/* line 155, ../scss/custom.scss */
+/* line 173, ../scss/custom.scss */
 .card .back {
   box-shadow: 1px 1px 6px #999;
   border-radius: 6px;
   border: 1px solid black; }
 
-/* line 161, ../scss/custom.scss */
+/* line 179, ../scss/custom.scss */
 .letter {
-  width: 49%; }
+  width: 70%; }
 
-/* line 204, ../scss/custom.scss */
+/* line 183, ../scss/custom.scss */
+.letter span {
+  font-size: 88px; }
+
+/* line 187, ../scss/custom.scss */
+#b {
+  background: url("../images/b/b_is_for_barton.jpg") 50% 0 no-repeat fixed;
+  background-size: cover;
+  border: 1px solid black;
+  text-shadow: 2px 2px #666; }
+
+/* line 200, ../scss/custom.scss */
+#d {
+  background: url("../images/d/Deep_eddy.jpg") 50% 0 no-repeat fixed;
+  height: 1000px;
+  min-height: 1000px;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  background-size: cover; }
+
+/* line 217, ../scss/custom.scss */
+#e {
+  background: url("../images/e/e_is_for_energy.jpg") 50% 0 no-repeat fixed;
+  height: 1000px;
+  min-height: 1000px;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  background-size: cover; }
+
+/* line 230, ../scss/custom.scss */
 #a article {
   height: 458px;
   position: absolute;
@@ -6762,7 +6825,7 @@ section.bcg {
   top: 50px;
   width: 100%; }
 
-/* line 212, ../scss/custom.scss */
+/* line 238, ../scss/custom.scss */
 #b article {
   height: 458px;
   position: absolute;
@@ -6770,18 +6833,17 @@ section.bcg {
   top: 150px;
   width: 100%; }
 
-/* line 220, ../scss/custom.scss */
+/* line 246, ../scss/custom.scss */
 #c article span {
-  font-family: 'Fugaz One', cursive;
+  font-family: 'Dense-Regular', cursive;
   font-size: 5em;
   margin-left: -55px; }
 
-/* line 226, ../scss/custom.scss */
+/* line 252, ../scss/custom.scss */
 #d .row span {
-  font-family: 'Fugaz One', cursive;
-  font-size: 3em; }
+  font-family: 'Dense-Regular', cursive; }
 
-/* line 231, ../scss/custom.scss */
+/* line 257, ../scss/custom.scss */
 #g {
   background: url("../images/g/graffiti.jpeg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6794,13 +6856,13 @@ section.bcg {
   position: relative;
   background-size: cover; }
 
-/* line 244, ../scss/custom.scss */
+/* line 270, ../scss/custom.scss */
 #g .row span {
-  font-family: 'Fugaz One', cursive;
+  font-family: 'Dense-Regular', cursive;
   font-size: 3em;
   color: #9fc438; }
 
-/* line 250, ../scss/custom.scss */
+/* line 276, ../scss/custom.scss */
 #h {
   background: url("../images/h/h_is_for_house_park.jpg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6813,10 +6875,10 @@ section.bcg {
   position: relative;
   background-size: cover; }
 
-/* line 263, ../scss/custom.scss */
+/* line 289, ../scss/custom.scss */
 .languages span {
   cursor: pointer; }
 
-/* line 267, ../scss/custom.scss */
+/* line 293, ../scss/custom.scss */
 .languages {
   text-align: center; }
