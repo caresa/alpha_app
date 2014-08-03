@@ -6679,7 +6679,7 @@ th.hide-for-touch {
   text-shadow: 2px 2px #666; }
 
 /* line 17, ../scss/custom.scss */
-section.bcg {
+.bcg {
   height: 1000px;
   min-height: 1000px;
   top: 0;
@@ -6762,62 +6762,30 @@ section.bcg {
   -moz-opacity: 0.70;
   opacity: 0.70;
   color: #333;
-  font-weight: bold; }
+  font-weight: bold;
+  border: 1px solid black; }
 
-/* line 167, ../scss/custom.scss */
+/* line 168, ../scss/custom.scss */
 .front img {
   height: 100%;
   border-radius: 6px;
   border: 1px solid black; }
 
-/* line 173, ../scss/custom.scss */
+/* line 174, ../scss/custom.scss */
 .card .back {
   box-shadow: 1px 1px 6px #999;
   border-radius: 6px;
   border: 1px solid black; }
 
-/* line 179, ../scss/custom.scss */
+/* line 180, ../scss/custom.scss */
 .letter {
   width: 70%; }
 
-/* line 183, ../scss/custom.scss */
+/* line 184, ../scss/custom.scss */
 .letter span {
   font-size: 88px; }
 
-/* line 187, ../scss/custom.scss */
-#b {
-  background: url("../images/b/b_is_for_barton.jpg") 50% 0 no-repeat fixed;
-  background-size: cover;
-  border: 1px solid black;
-  text-shadow: 2px 2px #666; }
-
-/* line 200, ../scss/custom.scss */
-#d {
-  background: url("../images/d/Deep_eddy.jpg") 50% 0 no-repeat fixed;
-  height: 1000px;
-  min-height: 1000px;
-  top: 0;
-  left: 0;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1920px;
-  position: relative;
-  background-size: cover; }
-
-/* line 217, ../scss/custom.scss */
-#e {
-  background: url("../images/e/e_is_for_energy.jpg") 50% 0 no-repeat fixed;
-  height: 1000px;
-  min-height: 1000px;
-  top: 0;
-  left: 0;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1920px;
-  position: relative;
-  background-size: cover; }
-
-/* line 230, ../scss/custom.scss */
+/* line 188, ../scss/custom.scss */
 #a article {
   height: 458px;
   position: absolute;
@@ -6825,7 +6793,7 @@ section.bcg {
   top: 50px;
   width: 100%; }
 
-/* line 238, ../scss/custom.scss */
+/* line 196, ../scss/custom.scss */
 #b article {
   height: 458px;
   position: absolute;
@@ -6833,17 +6801,57 @@ section.bcg {
   top: 150px;
   width: 100%; }
 
-/* line 246, ../scss/custom.scss */
+/* line 204, ../scss/custom.scss */
 #c article span {
   font-family: 'Dense-Regular', cursive;
   font-size: 5em;
   margin-left: -55px; }
 
-/* line 252, ../scss/custom.scss */
+/* line 210, ../scss/custom.scss */
 #d .row span {
   font-family: 'Dense-Regular', cursive; }
 
-/* line 257, ../scss/custom.scss */
+/* line 215, ../scss/custom.scss */
+#a {
+  background: url("../images/a/a_is_for_austin.jpeg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 220, ../scss/custom.scss */
+#b {
+  background: url("../images/b/b_is_for_barton.jpg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 225, ../scss/custom.scss */
+#c {
+  background: url("../images/c/c_is_for_capitol.jpg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 234, ../scss/custom.scss */
+#d {
+  background: url("../images/d/Deep_eddy.jpg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 239, ../scss/custom.scss */
+#f {
+  background: url("../images/f/f_for_fiesta.jpg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 244, ../scss/custom.scss */
+#e {
+  background: url("../images/e/e_is_for_energy.jpg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 249, ../scss/custom.scss */
+#i {
+  background: url("../images/i/i_is_for_imaginarium.jpg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 254, ../scss/custom.scss */
+#j {
+  background: url("../images/j/j_is_for_juiceland.jpg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 259, ../scss/custom.scss */
 #g {
   background: url("../images/g/graffiti.jpeg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6856,29 +6864,99 @@ section.bcg {
   position: relative;
   background-size: cover; }
 
-/* line 270, ../scss/custom.scss */
+/* line 272, ../scss/custom.scss */
 #g .row span {
-  font-family: 'Dense-Regular', cursive;
-  font-size: 3em;
   color: #9fc438; }
 
 /* line 276, ../scss/custom.scss */
 #h {
   background: url("../images/h/h_is_for_house_park.jpg") 50% 0 no-repeat fixed;
-  height: 1000px;
-  min-height: 1000px;
-  top: 0;
-  left: 0;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1920px;
-  position: relative;
   background-size: cover; }
 
-/* line 289, ../scss/custom.scss */
+/* line 281, ../scss/custom.scss */
+#k {
+  background: url("../images/k/k_is_for_kite_festival.jpg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 286, ../scss/custom.scss */
+#l {
+  background: url("../images/l/l_is_for_ladybird_lake.jpg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 291, ../scss/custom.scss */
+#m {
+  background: url("../images/m/m_is_for_mount_bonnell.jpeg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 296, ../scss/custom.scss */
+#n {
+  background: url("../images/n/n_is_for_nature.jpg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 301, ../scss/custom.scss */
+#o {
+  background: url("../images/o/o_is_for_observatory.jpg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 307, ../scss/custom.scss */
+#p {
+  background: url("../images/p/p_is_for_paramount.jpg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 312, ../scss/custom.scss */
+#q {
+  background: url("../images/q/q_is_for_quacks.jpeg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 317, ../scss/custom.scss */
+#r {
+  background: url("../images/r/red_bud_isle.jpg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 322, ../scss/custom.scss */
+#s {
+  background: url("../images/s/symphony.jpg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 327, ../scss/custom.scss */
+#t {
+  background: url("../images/t/t_is_for_tower.jpg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 332, ../scss/custom.scss */
+#u {
+  background: url("../images/u/university.jpg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 337, ../scss/custom.scss */
+#v {
+  background: url("../images/v/veloway.jpg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 342, ../scss/custom.scss */
+#w {
+  background: url("../images/w/waller_creek.jpg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 347, ../scss/custom.scss */
+#x {
+  background: url("../images/x/x_games.jpg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 352, ../scss/custom.scss */
+#y {
+  background: url("../images/y/y.jpg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 357, ../scss/custom.scss */
+#z {
+  background: url("../images/z/zilker.jpg") 50% 0 no-repeat fixed;
+  background-size: cover; }
+
+/* line 362, ../scss/custom.scss */
 .languages span {
   cursor: pointer; }
 
-/* line 293, ../scss/custom.scss */
+/* line 366, ../scss/custom.scss */
 .languages {
   text-align: center; }

@@ -14,7 +14,7 @@ body{
 //   background: rgba(0, 0, 0, 0.2);
 // }
 
-section.bcg{
+.bcg{
   height: 1000px;
   min-height: 1000px;
   top: 0;
@@ -162,6 +162,7 @@ section.bcg{
     opacity: 0.70;
     color: #333;
     font-weight: bold;
+    border: 1px solid black;
   }
 
   .front img{
@@ -184,14 +185,47 @@ section.bcg{
     font-size: 88px;
   }
 
+  #a article {
+    height: 458px;
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    width: 100%;
+  }
+
+  #b article{
+    height: 458px;
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    width: 100%;
+  }
+
+  #c article span{
+    font-family: 'Dense-Regular', cursive;
+    font-size: 5em;
+    margin-left: -55px;
+  }
+
+  #d .row span{
+    font-family: 'Dense-Regular', cursive;
+
+  }
+
+#a{
+   background: url('../images/a/a_is_for_austin.jpeg') 50% 0 no-repeat fixed;
+   background-size: cover;
+}
+
 #b{
   background: url("../images/b/b_is_for_barton.jpg") 50% 0 no-repeat fixed;
   background-size: cover;
-  border: 1px solid black;
-  text-shadow:2px 2px #666;
-
 }
 
+#c{
+  background: url('../images/c/c_is_for_capitol.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
+}
 // //need to fix alignment
 // #letter-c img span{
 //   margin-left: -40px;
@@ -199,59 +233,27 @@ section.bcg{
 
 #d{
   background: url("../images/d/Deep_eddy.jpg") 50% 0 no-repeat fixed;
-  height: 1000px;
-  min-height: 1000px;
-  top: 0;
-  left: 0;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1920px;
-  position: relative;
   background-size: cover;
 }
 
-  // #d span{
-  //   color: white;
-  // }
+#f{
+  background: url('../images/f/f_for_fiesta.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
+}
 
 #e{
   background: url("../images/e/e_is_for_energy.jpg") 50% 0 no-repeat fixed;
-  height: 1000px;
-  min-height: 1000px;
-  top: 0;
-  left: 0;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1920px;
-  position: relative;
+  background-size: cover;
+}
+//need to change image
+#i{
+  background: url('../images/i/i_is_for_imaginarium.jpg') 50% 0 no-repeat fixed;;
   background-size: cover;
 }
 
-#a article {
-  height: 458px;
-  position: absolute;
-  text-align: center;
-  top: 50px;
-  width: 100%;
-}
-
-#b article{
-  height: 458px;
-  position: absolute;
-  text-align: center;
-  top: 150px;
-  width: 100%;
-}
-
-#c article span{
-  font-family: 'Dense-Regular', cursive;
-  font-size: 5em;
-  margin-left: -55px;
-}
-
-#d .row span{
-  font-family: 'Dense-Regular', cursive;
-
+#j{
+  background: url('../images/j/j_is_for_juiceland.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
 }
 
 #g{
@@ -268,21 +270,92 @@ section.bcg{
 }
 
 #g .row span{
-  font-family: 'Dense-Regular', cursive;
-  font-size: 3em;
   color: #9fc438;
 }
 
 #h{
   background: url('../images/h/h_is_for_house_park.jpg') 50% 0 no-repeat fixed;
-  height: 1000px;
-  min-height: 1000px;
-  top: 0;
-  left: 0;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1920px;
-  position: relative;
+  background-size: cover;
+}
+
+#k{
+  background: url('../images/k/k_is_for_kite_festival.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
+}
+
+#l{
+  background: url('../images/l/l_is_for_ladybird_lake.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
+}
+
+#m{
+  background: url('../images/m/m_is_for_mount_bonnell.jpeg') 50% 0 no-repeat fixed;
+  background-size: cover;
+}
+
+#n{
+  background: url('../images/n/n_is_for_nature.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
+}
+
+#o{
+
+  background: url('../images/o/o_is_for_observatory.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
+}
+
+#p{
+  background: url('../images/p/p_is_for_paramount.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
+}
+
+#q{
+  background: url('../images/q/q_is_for_quacks.jpeg') 50% 0 no-repeat fixed;
+  background-size: cover;
+}
+
+#r{
+  background: url('../images/r/red_bud_isle.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
+}
+
+#s{
+  background: url('../images/s/symphony.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
+}
+
+#t{
+  background: url('../images/t/t_is_for_tower.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
+}
+
+#u{
+  background: url('../images/u/university.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
+}
+
+#v{
+  background: url('../images/v/veloway.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
+}
+
+#w{
+  background: url('../images/w/waller_creek.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
+}
+
+#x{
+  background: url('../images/x/x_games.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
+}
+
+#y{
+  background: url('../images/y/y.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
+}
+
+#z{
+  background: url('../images/z/zilker.jpg') 50% 0 no-repeat fixed;
   background-size: cover;
 }
 
