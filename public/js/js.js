@@ -13,6 +13,7 @@ jQuery(document).ready(function ($) {
     });
 
     function setLanguage(lang){
+        $('.flipped-lr').flip(options);
         language = lang;
     };
 
@@ -44,6 +45,12 @@ jQuery(document).ready(function ($) {
             scrollTop: $('#'+letter).offset().top
         }, 2000, "easeOutBounce");
     });
+
+    $('html, body').scrollTop($('#b').offset().top);
+
+    $('html, body').animate({
+          scrollTop: $('#a').offset().top
+    }, 2000, "easeOutBounce");
 
 
     //initialise Stellar.js

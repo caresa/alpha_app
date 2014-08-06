@@ -17,7 +17,7 @@ var slides =[
         'english': 'aardvark'
       },
       {
-        'src': './public/images/a/apple.jpg',
+        'src': './public/images/a/apple.jpeg',
         'classes': 'polaroid',
         'id': '',
         'english': 'apple'
@@ -92,7 +92,7 @@ var slides =[
 
       },
       {
-        'src': './public/images/d/dog.jpg',
+        'src': './public/images/d/dog.jpeg',
         'classes': 'polaroid',
         'id': '',
         'english': 'dog'
@@ -112,7 +112,7 @@ var slides =[
     'letterImg': 'letter_e_clipped_rev_1.png',
     'images': [
       {
-        'src': './public/images/e/eat.jpg',
+        'src': './public/images/e/eat.jpeg',
         'classes': 'polaroid',
         'id': '',
         'english': 'eat'
@@ -465,7 +465,7 @@ var slides =[
         'src': './public/images/r/rocker.jpg',
         'classes': 'polaroid',
         'id': '',
-        'english': 'quail'
+        'english': 'rocker'
       },
       {
         'src': './public/images/r/run.jpg',
@@ -570,13 +570,13 @@ var slides =[
         'src': './public/images/v/violet.jpg',
         'classes': 'polaroid',
         'id': '',
-        'english': 'ukulele'
+        'english': 'violet'
       },
       {
-        'src': './public/images/v/violen.jpg',
+        'src': './public/images/v/violin.jpg',
         'classes': 'polaroid',
         'id': '',
-        'english': 'violen'
+        'english': 'violin'
 
       },
       {

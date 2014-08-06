@@ -22,7 +22,7 @@ function showSlide(slide, element){
                                   '<div class="card">'+
                                     '<div class="front">'+
                                       '<img src="'+slide.images[i].src+'">'+
-                                      '<div class="tag">xxx</div>'+
+                                      '<div class="tag">'+slide.images[i].english+'</div>'+
                                     '</div>'+
                                     '<div class="back">'+
                                       '<p class="text">'+
@@ -36,13 +36,16 @@ function showSlide(slide, element){
     html = html+'</div>'+
                   '<div class="row">'+
                     '<div class="large-12 large-centered columns languages">'+
-                      '<div class="small-4 columns langOne">'+
+                      '<div class="small-6 columns langOne">'+
+                        '&nbsp;'+
+                      '</div>'+
+                      '<div class="small-2 columns langOne">'+
                         '<span id="spa">Spanish</span>'+
                       '</div>'+
-                      '<div class="small-4 columns langTwo">'+
+                      '<div class="small-2 columns langTwo">'+
                         '<span id="fra">French</span>'+
                       '</div>'+
-                      '<div class="small-4 columns langThree">'+
+                      '<div class="small-2 columns langThree">'+
                         '<span id="ita">Italian</span>'+
                       '</div>'+
                     '</div>'+

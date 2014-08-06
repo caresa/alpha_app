@@ -3,6 +3,7 @@
   margin: 0;
   color: #ccc;
   text-shadow:2px 2px #666;
+  font-family: 'Dense-Regular', cursive;
 }
 
 body{
@@ -156,13 +157,14 @@ body{
     position: absolute;
     left: 2px;
     bottom: 10px;
-    background-color: #EEE;
+    background-color: #666;
     padding: 10px 20px 10px 20px;
     -moz-opacity: 0.70;
     opacity: 0.70;
-    color: #333;
+    color: white;
     font-weight: bold;
     border: 1px solid black;
+    font-size: 30px;
   }
 
   .front img{
@@ -175,6 +177,11 @@ body{
   box-shadow: 1px 1px 6px #999;
   border-radius: 6px;
   border: 1px solid black;
+}
+
+.back p{
+  font-size: 4em;
+  margin-top: 20px;
 }
 
 .letter{
@@ -215,6 +222,7 @@ body{
 #a{
    background: url('../images/a/a_is_for_austin.jpeg') 50% 0 no-repeat fixed;
    background-size: cover;
+
 }
 
 #b{
@@ -361,6 +369,7 @@ body{
 
 .languages span{
   cursor: pointer;
+  color: white;
 }
 
 .languages{
