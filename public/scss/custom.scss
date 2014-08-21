@@ -6,14 +6,10 @@
   font-family: 'Dense-Regular', cursive;
 }
 
-body{
-
+.polaroid.card-container{
+  margin-top: 55px;
+  // border: 1px solid black;
 }
-// .row{
-//   background-color: #ccc;
-//   border-radius: 6px;
-//   background: rgba(0, 0, 0, 0.2);
-// }
 
 .bcg{
   height: 1000px;
@@ -25,6 +21,14 @@ body{
   max-width: 1920px;
   background-size: cover;
   border: 1px solid black;
+
+}
+
+.header{
+  background-color: #06172e;
+  border-radius: 3px;
+  border: 1px solid black;
+  background: rgba(6, 23, 46, 0.7);
 }
 
 .large-6.columns.letter{
@@ -64,7 +68,8 @@ body{
 }
 
 .back {
-  background-color:#9c62ff;
+  background-color:#06172e;
+
 }
 
   .back p{
@@ -77,9 +82,11 @@ body{
   border-radius: 3px;
   border-box: 1px solid black;
   margin-top: 2em;
-  background-color: white;
+  background-color: #06172e;
   min-width: 630px;
   padding: 10px 0 10px 0;
+  height: 40%;
+  background: rgba(6, 23, 46, 0.7);
 }
 
 // #slide1 img:first-child, #slide2 img:first-child {
@@ -171,12 +178,14 @@ body{
     height: 100%;
     border-radius: 6px;
     border: 1px solid black;
+    width: 270px;
   }
 
 .card .back{
   box-shadow: 1px 1px 6px #999;
   border-radius: 6px;
   border: 1px solid black;
+  width: 270px;
 }
 
 .back p{
@@ -222,7 +231,6 @@ body{
 #a{
    background: url('../images/a/a_is_for_austin.jpeg') 50% 0 no-repeat fixed;
    background-size: cover;
-
 }
 
 #b{

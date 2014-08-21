@@ -1,6 +1,6 @@
 function showSlide(slide, element){
   var html =  '<section class="bcg" id="'+slide.letter+'" data-type="background" data-speed="10" class="pages">' +
-                '<div class="row">'+
+                '<div class="row header">'+
                   '<div class="large-6 columns letter">'+
                     '<img src="./public/images/'+slide.letter+"/"+slide.letterImg+'">'+
                       '<span>'+slide.title+'</span>'+

@@ -6679,7 +6679,11 @@ th.hide-for-touch {
   text-shadow: 2px 2px #666;
   font-family: 'Dense-Regular', cursive; }
 
-/* line 18, ../scss/custom.scss */
+/* line 9, ../scss/custom.scss */
+.polaroid.card-container {
+  margin-top: 55px; }
+
+/* line 14, ../scss/custom.scss */
 .bcg {
   height: 1000px;
   min-height: 1000px;
@@ -6691,29 +6695,36 @@ th.hide-for-touch {
   background-size: cover;
   border: 1px solid black; }
 
-/* line 30, ../scss/custom.scss */
+/* line 27, ../scss/custom.scss */
+.header {
+  background-color: #06172e;
+  border-radius: 3px;
+  border: 1px solid black;
+  background: rgba(6, 23, 46, 0.7); }
+
+/* line 34, ../scss/custom.scss */
 .large-6.columns.letter {
   margin-top: 25px; }
 
-/* line 34, ../scss/custom.scss */
+/* line 38, ../scss/custom.scss */
 .wrapper {
   width: 960px;
   height: 50px;
   margin: 0 auto;
   position: relative; }
 
-/* line 41, ../scss/custom.scss */
+/* line 45, ../scss/custom.scss */
 .row span {
   font-family: 'Dense-Regular', cursive;
   font-size: 3em; }
 
-/* line 47, ../scss/custom.scss */
+/* line 51, ../scss/custom.scss */
 .pic-border1 {
   -webkit-transform: rotate(6deg);
   -moz-transform: rotate(6deg);
   transform: rotate(6deg); }
 
-/* line 53, ../scss/custom.scss */
+/* line 57, ../scss/custom.scss */
 .pic-border {
   -webkit-transform: rotate(-10deg);
   -moz-transform: rotate(-10deg);
@@ -6721,39 +6732,41 @@ th.hide-for-touch {
   margin-right: 50px;
   max-width: 500px; }
 
-/* line 61, ../scss/custom.scss */
+/* line 65, ../scss/custom.scss */
 .word-wrapper {
   margin-top: 25%;
   text-align: center; }
 
-/* line 66, ../scss/custom.scss */
-.back {
-  background-color: #9c62ff; }
-
 /* line 70, ../scss/custom.scss */
+.back {
+  background-color: #06172e; }
+
+/* line 75, ../scss/custom.scss */
 .back p {
   margin-top: 85px;
   text-align: center; }
 
-/* line 75, ../scss/custom.scss */
+/* line 80, ../scss/custom.scss */
 .card-wrap {
   border-radius: 3px;
   border-box: 1px solid black;
   margin-top: 2em;
-  background-color: white;
+  background-color: #06172e;
   min-width: 630px;
-  padding: 10px 0 10px 0; }
+  padding: 10px 0 10px 0;
+  height: 40%;
+  background: rgba(6, 23, 46, 0.7); }
 
-/* line 147, ../scss/custom.scss */
+/* line 154, ../scss/custom.scss */
 .card .front {
   z-index: 1; }
 
-/* line 151, ../scss/custom.scss */
+/* line 158, ../scss/custom.scss */
 .front {
   position: relative;
   text-align: center; }
 
-/* line 156, ../scss/custom.scss */
+/* line 163, ../scss/custom.scss */
 .front .tag {
   position: absolute;
   left: 2px;
@@ -6767,32 +6780,34 @@ th.hide-for-touch {
   border: 1px solid black;
   font-size: 30px; }
 
-/* line 170, ../scss/custom.scss */
+/* line 177, ../scss/custom.scss */
 .front img {
   height: 100%;
   border-radius: 6px;
-  border: 1px solid black; }
+  border: 1px solid black;
+  width: 270px; }
 
-/* line 176, ../scss/custom.scss */
+/* line 184, ../scss/custom.scss */
 .card .back {
   box-shadow: 1px 1px 6px #999;
   border-radius: 6px;
-  border: 1px solid black; }
+  border: 1px solid black;
+  width: 270px; }
 
-/* line 182, ../scss/custom.scss */
+/* line 191, ../scss/custom.scss */
 .back p {
   font-size: 4em;
   margin-top: 20px; }
 
-/* line 187, ../scss/custom.scss */
+/* line 196, ../scss/custom.scss */
 .letter {
   width: 70%; }
 
-/* line 191, ../scss/custom.scss */
+/* line 200, ../scss/custom.scss */
 .letter span {
   font-size: 88px; }
 
-/* line 195, ../scss/custom.scss */
+/* line 204, ../scss/custom.scss */
 #a article {
   height: 458px;
   position: absolute;
@@ -6800,7 +6815,7 @@ th.hide-for-touch {
   top: 50px;
   width: 100%; }
 
-/* line 203, ../scss/custom.scss */
+/* line 212, ../scss/custom.scss */
 #b article {
   height: 458px;
   position: absolute;
@@ -6808,57 +6823,57 @@ th.hide-for-touch {
   top: 150px;
   width: 100%; }
 
-/* line 211, ../scss/custom.scss */
+/* line 220, ../scss/custom.scss */
 #c article span {
   font-family: 'Dense-Regular', cursive;
   font-size: 5em;
   margin-left: -55px; }
 
-/* line 217, ../scss/custom.scss */
+/* line 226, ../scss/custom.scss */
 #d .row span {
   font-family: 'Dense-Regular', cursive; }
 
-/* line 222, ../scss/custom.scss */
+/* line 231, ../scss/custom.scss */
 #a {
   background: url("../images/a/a_is_for_austin.jpeg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 228, ../scss/custom.scss */
+/* line 236, ../scss/custom.scss */
 #b {
   background: url("../images/b/b_is_for_barton.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 233, ../scss/custom.scss */
+/* line 241, ../scss/custom.scss */
 #c {
   background: url("../images/c/c_is_for_capitol.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 242, ../scss/custom.scss */
+/* line 250, ../scss/custom.scss */
 #d {
   background: url("../images/d/Deep_eddy.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 247, ../scss/custom.scss */
+/* line 255, ../scss/custom.scss */
 #f {
   background: url("../images/f/f_for_fiesta.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 252, ../scss/custom.scss */
+/* line 260, ../scss/custom.scss */
 #e {
   background: url("../images/e/e_is_for_energy.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 257, ../scss/custom.scss */
+/* line 265, ../scss/custom.scss */
 #i {
   background: url("../images/i/i_is_for_imaginarium.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 262, ../scss/custom.scss */
+/* line 270, ../scss/custom.scss */
 #j {
   background: url("../images/j/j_is_for_juiceland.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 267, ../scss/custom.scss */
+/* line 275, ../scss/custom.scss */
 #g {
   background: url("../images/g/graffiti.jpeg") 50% 0 no-repeat fixed;
   height: 1000px;
@@ -6871,100 +6886,100 @@ th.hide-for-touch {
   position: relative;
   background-size: cover; }
 
-/* line 280, ../scss/custom.scss */
+/* line 288, ../scss/custom.scss */
 #g .row span {
   color: #9fc438; }
 
-/* line 284, ../scss/custom.scss */
+/* line 292, ../scss/custom.scss */
 #h {
   background: url("../images/h/h_is_for_house_park.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 289, ../scss/custom.scss */
+/* line 297, ../scss/custom.scss */
 #k {
   background: url("../images/k/k_is_for_kite_festival.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 294, ../scss/custom.scss */
+/* line 302, ../scss/custom.scss */
 #l {
   background: url("../images/l/l_is_for_ladybird_lake.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 299, ../scss/custom.scss */
+/* line 307, ../scss/custom.scss */
 #m {
   background: url("../images/m/m_is_for_mount_bonnell.jpeg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 304, ../scss/custom.scss */
+/* line 312, ../scss/custom.scss */
 #n {
   background: url("../images/n/n_is_for_nature.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 309, ../scss/custom.scss */
+/* line 317, ../scss/custom.scss */
 #o {
   background: url("../images/o/o_is_for_observatory.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 315, ../scss/custom.scss */
+/* line 323, ../scss/custom.scss */
 #p {
   background: url("../images/p/p_is_for_paramount.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 320, ../scss/custom.scss */
+/* line 328, ../scss/custom.scss */
 #q {
   background: url("../images/q/q_is_for_quacks.jpeg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 325, ../scss/custom.scss */
+/* line 333, ../scss/custom.scss */
 #r {
   background: url("../images/r/red_bud_isle.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 330, ../scss/custom.scss */
+/* line 338, ../scss/custom.scss */
 #s {
   background: url("../images/s/symphony.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 335, ../scss/custom.scss */
+/* line 343, ../scss/custom.scss */
 #t {
   background: url("../images/t/t_is_for_tower.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 340, ../scss/custom.scss */
+/* line 348, ../scss/custom.scss */
 #u {
   background: url("../images/u/university.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 345, ../scss/custom.scss */
+/* line 353, ../scss/custom.scss */
 #v {
   background: url("../images/v/veloway.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 350, ../scss/custom.scss */
+/* line 358, ../scss/custom.scss */
 #w {
   background: url("../images/w/waller_creek.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 355, ../scss/custom.scss */
+/* line 363, ../scss/custom.scss */
 #x {
   background: url("../images/x/x_games.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 360, ../scss/custom.scss */
+/* line 368, ../scss/custom.scss */
 #y {
   background: url("../images/y/y.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 365, ../scss/custom.scss */
+/* line 373, ../scss/custom.scss */
 #z {
   background: url("../images/z/zilker.jpg") 50% 0 no-repeat fixed;
   background-size: cover; }
 
-/* line 370, ../scss/custom.scss */
+/* line 378, ../scss/custom.scss */
 .languages span {
   cursor: pointer;
   color: white; }
 
-/* line 375, ../scss/custom.scss */
+/* line 383, ../scss/custom.scss */
 .languages {
   text-align: center; }
